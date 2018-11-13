@@ -1,0 +1,59 @@
+{
+  "id": "091b14b8-19f8-4e46-b60e-dc95f48e4726",
+  "name": "Welcome - goatFirst",
+  "auto": true,
+  "contexts": [
+    "Welcome-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Welcome.Welcome-custom",
+      "affectedContexts": [
+        {
+          "name": "Welcome-goatFirst-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "ru",
+          "title": "Вы садите козу в лодку и перевозите ее на другой берег.  Вы вернулись назад за волком и капустой.  Кого будем перевозить теперь?",
+          "replies": [
+            "волк",
+            "капуста"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "ru",
+          "title": "Вы садите козу в лодку и перевозите ее на другой берег.  Вы вернулись назад за волком и капустой.  Кого будем перевозить теперь?",
+          "replies": [
+            "волк",
+            "капуста"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "ru",
+          "speech": "Вы садите козу в лодку и перевозите ее на другой берег.\n\nВы вернулись назад за волком и капустой.\n\nКого будем перевозить теперь?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541890175,
+  "fallbackIntent": false,
+  "events": []
+}

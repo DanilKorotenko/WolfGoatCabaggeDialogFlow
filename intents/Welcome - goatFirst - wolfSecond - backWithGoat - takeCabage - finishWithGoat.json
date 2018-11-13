@@ -1,0 +1,33 @@
+{
+  "id": "0c44e3ce-ac27-4152-b808-ee7ef3d08f38",
+  "parentId": "060c7f94-64a4-4aa4-80ae-1928cf20be0b",
+  "rootParentId": "ebdc79cc-d4ed-431a-a8ab-71fd8aca9cd4",
+  "name": "Welcome - goatFirst - wolfSecond - backWithGoat - takeCabage - finishWithGoat",
+  "auto": true,
+  "contexts": [
+    "Welcome-goatFirst-wolfSecond-backWithGoat-takeCabage-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Welcome.Welcome-custom.Welcome-goatFirst-custom.Welcome-goatFirst-wolfSecond-custom.Welcome-goatFirst-wolfSecond-backWithGoat-custom.Welcome-goatFirst-wolfSecond-backWithGoat-takeCabage-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ru",
+          "speech": "Вы вернулись за козой и привезли ее к волку и капусте.\n\nВы справились с задачей."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541589342,
+  "fallbackIntent": false,
+  "events": []
+}

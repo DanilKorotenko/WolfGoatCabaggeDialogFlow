@@ -1,0 +1,48 @@
+{
+  "id": "e03a5ee4-2825-4ab8-b1db-5bc809dd9a60",
+  "parentId": "474b151c-402f-4bc6-a0e2-c4167a2b603e",
+  "rootParentId": "091b14b8-19f8-4e46-b60e-dc95f48e4726",
+  "name": "Welcome - goatFirst - cabageSecond - backWithGoat - takeWolf",
+  "auto": true,
+  "contexts": [
+    "Welcome-goatFirst-cabageSecond-backWithGoat-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Welcome.Welcome-custom.Welcome-goatFirst-custom.Welcome-goatFirst-cabageSecond-custom.Welcome-goatFirst-cabageSecond-backWithGoat-custom",
+      "affectedContexts": [
+        {
+          "name": "Welcome-goatFirst-cabageSecond-backWithGoat-takeWolf-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "ru",
+          "title": "Вы посадили волка в лодку и повезли его на другой берег к капусте.  Волк и капуста на одном берегу.  Осталось перевезти козу.",
+          "replies": [
+            "коза"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "ru",
+          "speech": "Вы посадили волка в лодку и повезли его на другой берег к капусте.\n\nВолк и капуста на одном берегу.\n\nОсталось перевезти козу."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541677294,
+  "fallbackIntent": false,
+  "events": []
+}

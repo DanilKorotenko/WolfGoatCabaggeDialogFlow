@@ -1,0 +1,57 @@
+{
+  "id": "060c7f94-64a4-4aa4-80ae-1928cf20be0b",
+  "parentId": "ebdc79cc-d4ed-431a-a8ab-71fd8aca9cd4",
+  "rootParentId": "ebdc79cc-d4ed-431a-a8ab-71fd8aca9cd4",
+  "name": "Welcome - goatFirst - wolfSecond - backWithGoat - takeCabage",
+  "auto": true,
+  "contexts": [
+    "Welcome-goatFirst-wolfSecond-backWithGoat-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Welcome.Welcome-custom.Welcome-goatFirst-custom.Welcome-goatFirst-wolfSecond-custom.Welcome-goatFirst-wolfSecond-backWithGoat-custom",
+      "affectedContexts": [
+        {
+          "name": "Welcome-goatFirst-wolfSecond-backWithGoat-takeCabage-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "ru",
+          "title": "Вы взяли капусту и повезли ее на берег к волку.  Теперь на берегу волк и капуста.  На другом берегу осталась коза.",
+          "replies": [
+            "коза"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "ru",
+          "title": "Вы взяли капусту и повезли ее на берег к волку.  Теперь на берегу волк и капуста.  На другом берегу осталась коза.",
+          "replies": [
+            "коза"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "ru",
+          "speech": "Вы взяли капусту и повезли ее на берег к волку.\n\nТеперь на берегу волк и капуста.\n\nНа другом берегу осталась коза."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542012196,
+  "fallbackIntent": false,
+  "events": []
+}

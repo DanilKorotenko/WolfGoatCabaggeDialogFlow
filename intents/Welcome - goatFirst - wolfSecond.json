@@ -1,0 +1,59 @@
+{
+  "id": "cf4dc42f-b3b4-492c-8f7d-b3abc32b1fed",
+  "parentId": "091b14b8-19f8-4e46-b60e-dc95f48e4726",
+  "rootParentId": "091b14b8-19f8-4e46-b60e-dc95f48e4726",
+  "name": "Welcome - goatFirst - wolfSecond",
+  "auto": true,
+  "contexts": [
+    "Welcome-goatFirst-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Welcome.Welcome-custom.Welcome-goatFirst-custom",
+      "affectedContexts": [
+        {
+          "name": "Welcome-goatFirst-wolfSecond-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "ru",
+          "title": "Вы садите волка в лодку и перевозите его на другой берег.  Теперь на берегу волк и коза. Осталось перевезти капусту.  Что дальше?",
+          "replies": [
+            "капуста",
+            "коза"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "ru",
+          "title": "Вы садите волка в лодку и перевозите его на другой берег.  Теперь на берегу волк и коза. Осталось перевезти капусту.  Что дальше?",
+          "replies": [
+            "капуста",
+            "коза"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "ru",
+          "speech": "Вы садите волка в лодку и перевозите его на другой берег.\n\nТеперь на берегу волк и коза. Осталось перевезти капусту.\n\nЧто дальше?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542022289,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ebdc79cc-d4ed-431a-a8ab-71fd8aca9cd4",
+  "name": "Welcome - goatFirst - wolfSecond - backWithGoat",
+  "auto": true,
+  "contexts": [
+    "Welcome-goatFirst-wolfSecond-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Welcome.Welcome-custom.Welcome-goatFirst-custom.Welcome-goatFirst-wolfSecond-custom",
+      "affectedContexts": [
+        {
+          "name": "Welcome-goatFirst-wolfSecond-backWithGoat-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "ru",
+          "title": "Вы посадили козу в лодку и поплыли назад за капустой.  Теперь на одном берегу коза и капуста, а на другом берегу волк.  Что дальше?",
+          "replies": [
+            "капуста"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "ru",
+          "title": "Вы посадили козу в лодку и поплыли назад за капустой.  Теперь на одном берегу коза и капуста, а на другом берегу волк.  Что дальше?",
+          "replies": [
+            "капуста"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "ru",
+          "speech": "Вы посадили козу в лодку и поплыли назад за капустой.\n\nТеперь на одном берегу коза и капуста, а на другом берегу волк.\n\nЧто дальше?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542012097,
+  "fallbackIntent": false,
+  "events": []
+}

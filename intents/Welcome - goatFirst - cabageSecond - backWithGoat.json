@@ -1,0 +1,57 @@
+{
+  "id": "474b151c-402f-4bc6-a0e2-c4167a2b603e",
+  "parentId": "ec600868-f674-41f8-a02f-c027c97f0e40",
+  "rootParentId": "091b14b8-19f8-4e46-b60e-dc95f48e4726",
+  "name": "Welcome - goatFirst - cabageSecond - backWithGoat",
+  "auto": true,
+  "contexts": [
+    "Welcome-goatFirst-cabageSecond-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Welcome.Welcome-custom.Welcome-goatFirst-custom.Welcome-goatFirst-cabageSecond-custom",
+      "affectedContexts": [
+        {
+          "name": "Welcome-goatFirst-cabageSecond-backWithGoat-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "ru",
+          "title": "Вы посадили козу в лодку и отправились за волком.  Теперь на одном берегу волк и коза, а на другом берегу капуста  Что теперь?",
+          "replies": [
+            "волк"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "ru",
+          "title": "Вы посадили козу в лодку и отправились за волком.  Теперь на одном берегу волк и коза, а на другом берегу капуста  Что теперь?",
+          "replies": [
+            "волк"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "ru",
+          "speech": "Вы посадили козу в лодку и отправились за волком.\n\nТеперь на одном берегу волк и коза, а на другом берегу капуста\n\nЧто теперь?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541890436,
+  "fallbackIntent": false,
+  "events": []
+}

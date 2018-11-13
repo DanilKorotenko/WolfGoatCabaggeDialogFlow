@@ -1,0 +1,70 @@
+{
+  "id": "2ad9414c-add4-49b6-a694-a1de9b505eee",
+  "name": "Welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "Welcome-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "ru",
+          "title": "Чтобы начать игру сначала, введите \"привет\".  Вы стоите на берегу реки.  Пере вами Волк, Коза и Капуста.   Кого будем перевозить?",
+          "replies": [
+            "волк",
+            "коза",
+            "капуста"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "ru",
+          "title": "Чтобы начать игру сначала, введите \"привет\".  Вы стоите на берегу реки.  Пере вами Волк, Коза и Капуста.   Кого будем перевозить?",
+          "replies": [
+            "волк",
+            "коза",
+            "капуста"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "ru",
+          "speech": "Чтобы начать игру сначала, введите \"привет\".\n\nВы стоите на берегу реки.\n\nПере вами Волк, Коза и Капуста. \n\nКого будем перевозить?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": false,
+        "facebook": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541692250,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "TELEGRAM_WELCOME"
+    },
+    {
+      "name": "FACEBOOK_WELCOME"
+    }
+  ]
+}

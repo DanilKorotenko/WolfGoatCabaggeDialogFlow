@@ -1,0 +1,59 @@
+{
+  "id": "ec600868-f674-41f8-a02f-c027c97f0e40",
+  "parentId": "091b14b8-19f8-4e46-b60e-dc95f48e4726",
+  "rootParentId": "091b14b8-19f8-4e46-b60e-dc95f48e4726",
+  "name": "Welcome - goatFirst - cabageSecond",
+  "auto": true,
+  "contexts": [
+    "Welcome-goatFirst-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Welcome.Welcome-custom.Welcome-goatFirst-custom",
+      "affectedContexts": [
+        {
+          "name": "Welcome-goatFirst-cabageSecond-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "ru",
+          "title": "Вы положили капусту в лодку и повезли ее на другой берег к козе.  Теперь волк на одном берегу, а коза и капуста на другом берегу.  Кого перевозим теперь?",
+          "replies": [
+            "коза",
+            "волк"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "ru",
+          "title": "Вы положили капусту в лодку и повезли ее на другой берег к козе.  Теперь волк на одном берегу, а коза и капуста на другом берегу.  Кого перевозим теперь?",
+          "replies": [
+            "волк",
+            "коза"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "ru",
+          "speech": "Вы положили капусту в лодку и повезли ее на другой берег к козе.\n\nТеперь волк на одном берегу, а коза и капуста на другом берегу.\n\nКого перевозим теперь?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541890333,
+  "fallbackIntent": false,
+  "events": []
+}

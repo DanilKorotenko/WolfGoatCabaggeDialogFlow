@@ -1,0 +1,28 @@
+{
+  "id": "adf67d0e-cc3b-4b86-a14d-594a393e588c",
+  "name": "ThisTaskIsForThirdClass",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ru",
+          "speech": "Да, это загадка для третьего класса."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542072700,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,37 @@
+{
+  "id": "5a4a4a6a-8556-4c8f-a076-e9a0ee2831ab",
+  "name": "Welcome - wolfFirst",
+  "auto": true,
+  "contexts": [
+    "Welcome-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Welcome.Welcome-custom",
+      "affectedContexts": [
+        {
+          "name": "Welcome-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ru",
+          "speech": "Вы садите волка в лодку и перевозите его на другой берег.\n\nКогда вы вернулись за козой и капустой, оказалось что коза съела капусту.\n\nИгра окончена"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541623849,
+  "fallbackIntent": false,
+  "events": []
+}

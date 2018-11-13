@@ -1,0 +1,33 @@
+{
+  "id": "2ef067ed-ceea-41e4-9fcc-d7b680d899cb",
+  "parentId": "ec600868-f674-41f8-a02f-c027c97f0e40",
+  "rootParentId": "091b14b8-19f8-4e46-b60e-dc95f48e4726",
+  "name": "Welcome - goatFirst - cabageSecond - backForWolf",
+  "auto": true,
+  "contexts": [
+    "Welcome-goatFirst-cabageSecond-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Welcome.Welcome-custom.Welcome-goatFirst-custom.Welcome-goatFirst-cabageSecond-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ru",
+          "speech": "Вы поехали за волком, оставив козу и капусту на одном берегу.\n\nКогда вы вернулись, оказалось что коза съела всю капусту.\n\nИгра окончена."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541584550,
+  "fallbackIntent": false,
+  "events": []
+}
