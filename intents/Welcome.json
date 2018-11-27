@@ -18,6 +18,17 @@
       "messages": [
         {
           "type": 2,
+          "platform": "viber",
+          "lang": "ru",
+          "title": "Чтобы начать игру сначала, введите \"привет\".  Вы стоите на берегу реки.  Пере вами Волк, Коза и Капуста.   Кого будем перевозить?",
+          "replies": [
+            "волк",
+            "коза",
+            "капуста"
+          ]
+        },
+        {
+          "type": 2,
           "platform": "facebook",
           "lang": "ru",
           "title": "Чтобы начать игру сначала, введите \"привет\".  Вы стоите на берегу реки.  Пере вами Волк, Коза и Капуста.   Кого будем перевозить?",
@@ -54,7 +65,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1541692250,
+  "lastUpdate": 1543319720,
   "fallbackIntent": false,
   "events": [
     {
@@ -65,6 +76,9 @@
     },
     {
       "name": "FACEBOOK_WELCOME"
+    },
+    {
+      "name": "VIBER_WELCOME"
     }
   ]
 }
